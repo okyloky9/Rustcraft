@@ -1,0 +1,11 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "down": "rustcraft:blocks/recbot" ,
+    "up" : "rustcraft:blocks/rectop",
+    "east": "rustcraft:blocks/recside",
+    "south": "rustcraft:blocks/recside",
+    "west": "rustcraft:blocks/recside",
+	"north": "rustcraft:blocks/recfronton"
+  }
+}

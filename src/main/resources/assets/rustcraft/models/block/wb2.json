@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rustcraft:blocks/wb2bot" ,
+    "up" : "rustcraft:blocks/wb2top",
+    "north": "rustcraft:blocks/wb2side",
+    "east": "rustcraft:blocks/wb2side",
+    "south": "rustcraft:blocks/wb2side",
+    "west": "rustcraft:blocks/wb2side"
+
+  }
+}

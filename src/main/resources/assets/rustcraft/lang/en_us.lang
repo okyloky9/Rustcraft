@@ -1,0 +1,30 @@
+//Items
+item.scrap.name=Scrap
+item.fuse.name=Fuse
+item.gear.name=Gears
+item.proptank.name=Empty Propane Tank
+item.rbody.name=Rifle Body
+item.rsign.name=Road Signs
+item.rope.name=Rope
+item.sabody.name=Semi Automatic Body
+item.skit.name=Sewing Kit
+item.spring.name=Spring
+item.tarp.name=Tarp
+item.ttrash.name=Tech Trash
+item.hqo.name=High Quality Metal Ore
+item.hqm.name=High Quality Metal
+
+//Blocks
+tile.recycler.name=Recycler
+tile.rtable.name=Research Table
+tile.wb1.name=Work Bench 1
+tile.wb2.name=Work Bench 2
+tile.wb3.name=Work Bench 3
+
+//Item Groups
+itemGroup.blockTab=Rustcraft Blocks
+itemGroup.compTab=Rustcraft Componenets
+itemGroup.bpTab=Rustcraft Blueprints
+
+//Containers
+container.recycler=Recycler
