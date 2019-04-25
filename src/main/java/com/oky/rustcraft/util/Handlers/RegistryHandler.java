@@ -30,7 +30,6 @@ public class RegistryHandler {
 
     }
 
-    @SubscribeEvent
     public static void initRegistries(){
 
         NetworkRegistry.INSTANCE.registerGuiHandler(Rustcraft.instance, new GuiHandler());

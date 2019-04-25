@@ -4,11 +4,9 @@
         "recycling=false,facing=east": {"model": "rustcraft:recycler", "y": 90},
         "recycling=false,facing=south": {"model": "rustcraft:recycler", "y": 180},
         "recycling=false,facing=west": {"model": "rustcraft:recycler", "y": 270},
-        "recycling=false,facing=up": {"model": "rustcraft:recycler"},
         "recycling=true,facing=north": {"model": "rustcraft:recycleron"},
         "recycling=true,facing=east": {"model": "rustcraft:recycleron", "y": 90},
         "recycling=true,facing=south": {"model": "rustcraft:recycleron", "y": 180},
-        "recycling=true,facing=west": {"model": "rustcraft:recycleron", "y": 270},
-        "recycling=false,facing=up": {"model": "rustcraft:recycleron"}
+        "recycling=true,facing=west": {"model": "rustcraft:recycleron", "y": 270}
     }
 }
