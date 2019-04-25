@@ -1,12 +1,30 @@
-    {
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "particle": "rustcraft:blocks/recside",
+            "down": "rustcraft:blocks/recbot" ,
+            "up" : "rustcraft:blocks/rectop",
+            "east": "rustcraft:blocks/recside",
+            "south": "rustcraft:blocks/recside",
+            "west": "rustcraft:blocks/recside",
+            "north": "rustcraft:blocks/recfrontoff"
+        }
+    },
     "variants": {
-        "recycling=false,facing=north": {"model": "rustcraft:recycler"},
-        "recycling=false,facing=east": {"model": "rustcraft:recycler", "y": 90},
-        "recycling=false,facing=south": {"model": "rustcraft:recycler", "y": 180},
-        "recycling=false,facing=west": {"model": "rustcraft:recycler", "y": 270},
-        "recycling=true,facing=north": {"model": "rustcraft:recycleron"},
-        "recycling=true,facing=east": {"model": "rustcraft:recycleron", "y": 90},
-        "recycling=true,facing=south": {"model": "rustcraft:recycleron", "y": 180},
-        "recycling=true,facing=west": {"model": "rustcraft:recycleron", "y": 270}
+        "normal": {
+            "model": "cube"
+        },
+        "recycling=false,facing=north": {"model": "rustcraft:block/recycler"},
+        "recycling=false,facing=east": {"model": "rustcraft:block/recycler", "y": 90},
+        "recycling=false,facing=south": {"model": "rustcraft:block/recycler", "y": 180},
+        "recycling=false,facing=west": {"model": "rustcraft:block/recycler", "y": 270},
+        "recycling=true,facing=north": {"model": "rustcraft:block/recycleron"},
+        "recycling=true,facing=east": {"model": "rustcraft:block/recycleron", "y": 90},
+        "recycling=true,facing=south": {"model": "rustcraft:block/recycleron", "y": 180},
+        "recycling=true,facing=west": {"model": "rustcraft:block/recycleron", "y": 270},
+        "inventory": {
+            "model": "rustcraft:block/recycler"
+        }
     }
 }

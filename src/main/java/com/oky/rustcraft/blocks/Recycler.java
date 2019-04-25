@@ -76,7 +76,14 @@ public class Recycler extends BlockBase implements ITileEntityProvider {
 
     @Override
     public void onBlockPlacedBy(World worldIn, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack){
-        worldIn.setBlockState(pos, this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite()), 2);
+        worldIn.setBlockState(pos, state.withProperty(FACING, EnumFacing.getFacingFromVector(
+                (float) (placer.posX - pos.getX()),
+                (float) (placer.posY - pos.getY()),
+                (float) (placer.posZ - pos.getZ()))), 2);
+        System.out.println(placer.posX - pos.getX());
+        System.out.println(placer.posY - pos.getY());
+        System.out.println(placer.posZ - pos.getZ());
+        //worldIn.setBlockState(pos, this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite()), 2);
     }
 /*
     @Override
